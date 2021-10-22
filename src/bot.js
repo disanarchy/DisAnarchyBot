@@ -1,4 +1,5 @@
 const Discord = require("discord.js");
+const { config } = require("dotenv");
 
 const intents = new Discord.Intents(32767);
 
@@ -13,4 +14,4 @@ const loadEvents = require("./load-events");
 loadCommands.load(Client, "./commands");
 loadEvents.load(Client, "./events");
 
-Client.login("");
+Client.login(process.env.token);
