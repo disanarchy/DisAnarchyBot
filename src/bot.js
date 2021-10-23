@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const { config } = require("dotenv");
+const config = require("src/config.json")
 
 const intents = new Discord.Intents(32767);
 
@@ -14,4 +14,4 @@ const loadEvents = require("./load-events");
 loadCommands.load(Client, "./commands");
 loadEvents.load(Client, "./events");
 
-Client.login(process.env.token);
+Client.login(config.token);
