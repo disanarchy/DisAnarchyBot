@@ -2,8 +2,6 @@ const fs = require("fs");
 
 const path = require("path");
 
-const { load } = require("./load-commands");
-
 module.exports.load = async (client, dir = "") => {
     const filePath = path.join(__dirname, dir);
     const files = await fs.readdirSync(filePath);
