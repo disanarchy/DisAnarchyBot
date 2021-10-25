@@ -15,3 +15,4 @@ loadCommands.load(Client, "./commands");
 loadEvents.load(Client, "./events");
 
 Client.login(config.token);
+ 
