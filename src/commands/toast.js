@@ -11,6 +11,6 @@ module.exports = {
             return message.reply("You cannot toast yourself.");
         }
 
-        message.reply(`${message.author}, just toasted ${user}!!! Get toasted!`);
+        message.reply(`${message.author} just toasted ${user}!!! Get toasted!`);
     }
 }
