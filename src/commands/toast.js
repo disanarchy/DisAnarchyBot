@@ -1,8 +1,11 @@
 module.exports = {
     name: "toast",
     execute: async (client, message, args) => {
-        if (message.author.id == "599204289088585738") { // ban dotto from command
-            return
+        
+        const blacklist = []
+        
+        if (blacklist.some(x => message.author.id.includes(x))) {
+            return;
         }
 
         if (message.mentions.roles.size > 0) {
