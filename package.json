@@ -1,24 +1,25 @@
 {
-  "dependencies": {
-    "chalk": "^4.1.2",
-    "discord.js": "^13.2.0",
-    "quick.db": "^7.1.3"
-  },
-  "name": "disanarchybot",
-  "version": "1.0.0",
-  "description": "Bot for discord.gg/disanarchy",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CurryBoi29/DisAnarchyBot.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CurryBoi29/DisAnarchyBot/issues"
-  },
-  "homepage": "https://github.com/CurryBoi29/DisAnarchyBot#readme"
+    "dependencies": {
+        "axios": "^0.24.0",
+        "chalk": "^4.1.2",
+        "discord.js": "^13.2.0",
+        "quick.db": "^7.1.3"
+    },
+    "name": "disanarchybot",
+    "version": "1.0.0",
+    "description": "Bot for discord.gg/disanarchy",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CurryBoi29/DisAnarchyBot.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/CurryBoi29/DisAnarchyBot/issues"
+    },
+    "homepage": "https://github.com/CurryBoi29/DisAnarchyBot#readme"
 }
