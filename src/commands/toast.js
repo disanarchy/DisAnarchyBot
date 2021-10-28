@@ -5,7 +5,7 @@ module.exports = {
             return
         }
 
-        if (message.mentions.roles.size < 0) {
+        if (message.mentions.roles.size > 0) {
             return message.reply("Do not mention a role.");
         }
 
