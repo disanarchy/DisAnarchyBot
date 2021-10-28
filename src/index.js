@@ -23,8 +23,4 @@ events.forEach(file => {
     }
 });
 
-client.on("ready", () => {
-    console.log(`\n \n✅  | Wakey Wakey time for work ${client.user.tag}`)
-})
-
 client.login(config.token);
